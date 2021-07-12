@@ -1,0 +1,39 @@
+body{
+    background-color: #FBEEC1;
+}
+
+#header{
+    text-align: center;
+    margin: 3em;
+    font-family: 'Merriweather', serif;
+}
+
+#btn{
+    border: none;
+    background-color: rgb(197, 189, 189);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: gray;
+}
+
+#container{
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.test{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+
+.hover{
+    background-color: orange;
+    border: 1px solid black;
+    text-align: center;
+}
